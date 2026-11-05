@@ -1,0 +1,59 @@
+# Python caches and build output
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Virtual environments and local settings
+.venv/
+.tools-venv/
+.tools/
+venv/
+env/
+.python-version
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+
+# Tool caches and coverage
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.ipynb_checkpoints/
+
+# Datasets and generated artifacts; keep small test fixtures under tests/
+/data/
+/artifacts/
+/models/
+/checkpoints/
+/reports/
+/lightning_logs/
+/mlruns/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.pickle
+*.joblib
+*.safetensors
+
+# Temporary files and local logs
+/tmp/
+/temp/
+*.tmp
+*.temp
+*.log
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
